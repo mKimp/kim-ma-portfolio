@@ -1,0 +1,33 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: space-around;
+  padding: 20px 0;
+
+  .navbar-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    width: 85px;
+    height: 55px;
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+
+.navbar-item {
+  button {
+    background-color: transparent;
+    border-color: #6e07f3;
+    color: #6e07f3;
+    border-width: 2px;
+    font-size: 18px;
+    padding: 1.2rem;
+    border-radius: 9999px;
+  }
+}

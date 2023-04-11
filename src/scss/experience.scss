@@ -22,7 +22,10 @@
 
           .column {
             width: 300px;
-            padding: 0 20px;
+
+            &:not(:last-child) {
+              border-right: 1px solid #6e07f3;
+            }
 
             .job-description {
               height: 90px;

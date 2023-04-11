@@ -1,3 +1,6 @@
+.body-introduction {
+  margin-top: -10px;
+}
 .columns {
   display: flex;
   justify-content: center;
@@ -6,17 +9,17 @@
   margin-top: -0.75rem;
 
   .column {
-    h1 {
+    .intro-title {
       color: white;
     }
-    h2 {
+    .intro-subtitle {
       color: white;
       font-weight: normal;
     }
   }
 }
 .section.is-medium {
-  padding: 7rem 0 16rem 0;
+  padding: 7rem 0 16rem;
   background-color: #6e07f3;
 }
 

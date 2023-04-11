@@ -6,8 +6,10 @@ export const BodyHero = () => {
         <div className='container'>
           <div className='columns is-centered'>
             <div className='column'>
-              <h1 className='title is-spaced'>Full Stack, Software Engineer</h1>
-              <h2>
+              <h1 className='hero-title is-spaced'>
+                Full Stack, Software Engineer
+              </h1>
+              <h2 className='hero-subtitle'>
                 I code beautifully to solve the complex subjects to simple
                 things, and I love what I do.
               </h2>

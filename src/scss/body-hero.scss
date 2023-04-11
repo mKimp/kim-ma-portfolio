@@ -1,7 +1,20 @@
 .body-hero-img {
-  max-width: 300px;
+  max-width: 200px;
   min-width: 200px;
 }
-.h2 {
-  font-weight: none;
+.columns {
+  .column {
+    padding: 0 30px;
+
+    h1.hero-title {
+      color: black;
+      font-weight: 800;
+      font-size: 2rem;
+      margin-bottom: 0;
+    }
+    h2.hero-subtitle {
+      color: black;
+      font-weight: normal;
+    }
+  }
 }

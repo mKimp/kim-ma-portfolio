@@ -1,0 +1,69 @@
+.section.projects {
+  margin-top: -15rem;
+
+  .container {
+    max-width: 1334px;
+    border-radius: 12px;
+    background-color: white;
+    margin: 0 30px;
+
+    .box {
+      .title-projects {
+        font-size: 3rem;
+        color: black;
+        padding-top: 30px;
+      }
+
+      .content {
+        .columns {
+          display: flex;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+
+          .column {
+            width: 300px;
+            padding: 0 20px;
+
+            .job-description {
+              height: 90px;
+            }
+
+            .achivement-title {
+              color: #6e07f3;
+              font-weight: 500;
+            }
+
+            .achivement-lists {
+              li {
+                text-align: left;
+                padding: 5px 0;
+              }
+            }
+            .title {
+              color: black;
+
+              .companies {
+                font-weight: normal;
+                display: block;
+              }
+            }
+
+            .list-title {
+              span {
+                font-weight: 500;
+                color: #6e07f3;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+p.companies-date {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}

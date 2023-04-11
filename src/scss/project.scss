@@ -1,0 +1,25 @@
+.section.skills {
+  display: flex;
+  justify-content: center;
+  margin-top: -12rem;
+  .container {
+    max-width: 1334px;
+    border-radius: 12px;
+    background-color: white;
+    .box {
+      .title-projects {
+        font-size: 3rem;
+        color: black;
+      }
+      .content {
+        .columns {
+          .column {
+            .title {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}

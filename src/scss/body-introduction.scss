@@ -1,0 +1,26 @@
+.columns {
+  display: flex;
+  justify-content: center;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+
+  .column {
+    h1 {
+      color: white;
+    }
+    h2 {
+      color: white;
+      font-weight: normal;
+    }
+  }
+}
+.section.is-medium {
+  padding: 7rem 0 16rem 0;
+  background-color: #6e07f3;
+}
+
+.column.is-three-fifths {
+  flex: none;
+  width: 60%;
+}

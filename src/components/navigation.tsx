@@ -1,5 +1,7 @@
 import "../scss/navigation.scss";
 export const Navigation = () => {
+  const popUpModal = () => {};
+
   return (
     <nav className='navbar'>
       <div className='navbar-brand'>
@@ -13,7 +15,10 @@ export const Navigation = () => {
         <div className='navbar-start'></div>
         <div className='navbar-end'>
           <div className='navbar-item'>
-            <button className='say-hello-btn'> Say Hello </button>
+            <button className='say-hello-btn' onClick={popUpModal}>
+              {" "}
+              Say Hello{" "}
+            </button>
           </div>
         </div>
       </div>

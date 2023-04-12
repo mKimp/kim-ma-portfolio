@@ -44,7 +44,7 @@ export const Experience = () => {
                   </li>
                 </ul>
                 <p className='list-title has-text-primary has-text-weight-normal'>
-                  <span>Tech Stacks: </span> Javascript, Typescript, HTML, SCSS,
+                  <span>Tech Stack: </span> Javascript, Typescript, HTML, SCSS,
                   Node.js, Express, React, Redux, PostgreSQL, Jest, Postman,
                   Chrome Web Dev Tool, Redux Dev Tool and Git.
                 </p>
@@ -81,8 +81,8 @@ export const Experience = () => {
                   </li>
                 </ul>
                 <p className='list-title has-text-primary has-text-weight-normal'>
-                  <span>Tech Stacks: </span> Vanila Javascript, Typescript,
-                  HTML, CSS, React, Chrome Dev Tool and Git.
+                  <span>Tech Stack: </span> Vanila Javascript, Typescript, HTML,
+                  CSS, React, Chrome Dev Tool and Git.
                 </p>
               </div>
               {/* -------- */}
@@ -110,7 +110,7 @@ export const Experience = () => {
                   </li>
                 </ul>
                 <p className='list-title has-text-primary has-text-weight-normal'>
-                  <span>Tech Stacks: </span> : Javascript, Typescript, React,
+                  <span>Tech Stack: </span> : Javascript, Typescript, React,
                   Styled Components, and Git.
                 </p>
               </div>

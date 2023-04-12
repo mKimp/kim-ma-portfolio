@@ -37,6 +37,8 @@
             }
 
             .achivement-lists {
+              padding-left: 0;
+
               li {
                 text-align: left;
                 padding: 5px 0;
@@ -51,11 +53,9 @@
               }
             }
 
-            .list-title {
-              span {
-                font-weight: 500;
-                color: #6e07f3;
-              }
+            span {
+              font-weight: 500;
+              color: #6e07f3;
             }
           }
         }
@@ -69,4 +69,10 @@ p.companies-date {
   padding: 0;
   margin: 0;
   font-weight: normal;
+}
+
+@media screen and (max-width: 572px) {
+  .section.projects .container .box .content .columns .column:not(:last-child) {
+    border-right: none;
+  }
 }

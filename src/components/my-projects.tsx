@@ -21,8 +21,8 @@ export const MyProjects = () => {
                   States.
                 </p>
                 <p>
-                  Tech Stack: Typescript, HTML, SCSS, React, and National Park
-                  Service API
+                  <span> Tech Stack: </span>Typescript, HTML, SCSS, React, and
+                  National Park Service API
                 </p>
                 <p>
                   Deployed to Amazon Web Services S3 bucket with Route 53, and
@@ -31,7 +31,6 @@ export const MyProjects = () => {
               </div>
               <button className='check-me-out-btn'> Check me out </button>
             </div>
-
             <div className='column'>
               <div className='box'>
                 <h1>Word Search Helper</h1>
@@ -48,8 +47,8 @@ export const MyProjects = () => {
                   user-customized database.
                 </p>
                 <p>
-                  Tech Stack: Javascript, Data Structure (Trie), and Npm
-                  Registry Protocol.
+                  <span>Tech Stack:</span> Javascript, Data Structure (Trie),
+                  and Npm Registry Protocol.
                 </p>
                 <p>
                   {" "}
@@ -58,7 +57,7 @@ export const MyProjects = () => {
                 </p>
               </div>
               <button className='check-me-out-btn'> Check me out </button>
-            </div>
+            </div>{" "}
           </div>
         </div>
       </div>

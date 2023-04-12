@@ -10,8 +10,7 @@ export const BodyHero = () => {
                 Full Stack, Software Engineer
               </h1>
               <h2 className='hero-subtitle'>
-                I code beautifully to solve the complex subjects to simple
-                things, and I love what I do.
+                I code beautifully to bring ideas to life, and I love what I do.
               </h2>
               <div className='hero-container-image'>
                 <img

@@ -1,17 +1,35 @@
 .startup-grid .columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   border-radius: 12px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 
   .column {
     margin: 10px;
+    padding: 0;
 
     .box {
+      height: 450px;
+      width: 450px;
+      margin: 20px 0 10px 0;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      padding: 20px;
+      border-radius: 12px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      height: 600px;
 
+      &:hover {
+        transform: translate(20px, 10px);
+        transition: 0.8s;
+      }
+
+      .flip-card-front {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
       .project-img-container {
         width: 200px;
         height: 120px;
@@ -20,6 +38,13 @@
           width: 100%;
           border-radius: 10px;
         }
+      }
+      span {
+        color: #6e07f3;
+      }
+
+      p:last-child {
+        font-weight: 500;
       }
     }
 
@@ -37,13 +62,4 @@
 }
 
 @media screen and (max-width: 572px) {
-  .startup-grid .columns {
-    grid-template-columns: 1fr;
-
-    .column {
-      .box {
-        height: fit-content;
-      }
-    }
-  }
 }

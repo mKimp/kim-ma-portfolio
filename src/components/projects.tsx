@@ -9,9 +9,9 @@ export const Projects = () => {
               My Projects
             </h1>
             <h2 className='subtitle is-size-5-desktop has-text-weight-normal'>
-              I am a bit of a free and curious spirit for every surrounding
-              thing in our daily life. Eventually, I decided that it would be
-              fun and challenging to bring ideas to life in the browser.
+              I am a bit curious - Have strong question marks for most things in
+              our daily life. Eventually, I decided it would be fun and
+              challenging to bring those solutions to life in the browser.
             </h2>
           </div>
         </div>

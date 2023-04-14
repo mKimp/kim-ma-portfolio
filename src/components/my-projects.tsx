@@ -29,7 +29,18 @@ export const MyProjects = () => {
                   Cloudfront.{" "}
                 </p>
               </div>
-              <button className='check-me-out-btn'> Check me out </button>
+              <button
+                className='check-me-out-btn'
+                onClick={() =>
+                  window.open(
+                    "https://www.find-us-national-parks.link/",
+                    "__blank"
+                  )
+                }
+              >
+                {" "}
+                Check me out{" "}
+              </button>
             </div>
             <div className='column'>
               <div className='box'>
@@ -56,7 +67,18 @@ export const MyProjects = () => {
                   in four days.{" "}
                 </p>
               </div>
-              <button className='check-me-out-btn'> Check me out </button>
+              <button
+                className='check-me-out-btn'
+                onClick={() =>
+                  window.open(
+                    "https://www.npmjs.com/package/word-search-helper",
+                    "__blank"
+                  )
+                }
+              >
+                {" "}
+                Check me out{" "}
+              </button>
             </div>{" "}
           </div>
         </div>

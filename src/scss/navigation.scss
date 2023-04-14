@@ -29,5 +29,51 @@
     font-size: 18px;
     padding: 1.2rem;
     border-radius: 9999px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+}
+
+.burger-menu {
+  width: 2rem;
+  height: 2rem;
+  display: none;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  z-index: 10;
+}
+
+.burger {
+  width: 2rem;
+  height: 0.25rem;
+  border-radius: 10px;
+  background-color: black;
+  transform-origin: 1px;
+  transition: all 0.3s linear;
+}
+
+@media (max-width: 767px) {
+  .burger-menu {
+    display: flex;
+  }
+  .navbar-item {
+    display: none;
+
+    button {
+      padding: 0.8rem;
+    }
+
+    &.display-nav-items {
+      display: flex;
+    }
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navbar-end {
+    display: flex;
+    align-items: center;
   }
 }

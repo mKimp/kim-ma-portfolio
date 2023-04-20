@@ -22,20 +22,19 @@ export const Experience = () => {
                 <p className='achivement-title'>Achivements:</p>
                 <ul className='achivement-lists'>
                   <li>
-                    Saved 55% of the time to customize multiple events by
-                    building the channel nav icon feature in Typescript and
-                    Node.js that could be accessed across events in a single
-                    customer channel/account.
+                    Saved 55% of the time to customize multiple events in a
+                    single customer account by building a global navigation icon
+                    feature in Typescript and Express that was shared among
+                    events.
                   </li>
                   <li>
                     Suggested and created a new feature that deleted the event’s
-                    unused custom pages/links. Helped the internal user to
+                    unused custom pages/links. Helped internal customers to
                     reduce 100% the time of searching a specific page/link.
                   </li>
                   <li>
-                    Eliminated 80% of failed QAs by testing the features written
-                    in React with the Jest testing framework before moving them
-                    to production.
+                    Eliminated 80% of failed QAs by testing the features with
+                    the Jest testing framework before moving them to production.
                   </li>
                   <li>
                     Debugged and resolved the bug tickets within 16 hours time
@@ -58,12 +57,12 @@ export const Experience = () => {
                 <p className='job-description'>
                   {" "}
                   I manipulated the document object model (DOM) of a hundred
-                  customized live events built on Brandlive's platform.
+                  live events built on Brandlive's platform.
                 </p>
                 <p className='achivement-title'>Achivements:</p>
                 <ul className='achivement-lists'>
                   <li>
-                    Developed user interface for Telly Club (a product of
+                    Created a user interface for Telly Club (a product of
                     Brandlive) and made the website run at least 20% faster by
                     inspecting and removing unused code and reducing the size of
                     almost all images and videos.

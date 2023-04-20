@@ -22,7 +22,7 @@
 
           .column {
             width: 300px;
-
+            margin: 0 10px;
             &:not(:last-child) {
               border-right: 1px solid #6e07f3;
             }
@@ -74,5 +74,31 @@ p.companies-date {
 @media screen and (max-width: 767px) {
   .section.projects .container .box .content .columns .column:not(:last-child) {
     border-right: none;
+  }
+
+  .section.projects
+    .container
+    .box
+    .content
+    .columns
+    .column
+    .achivement-lists {
+    padding-left: inherit;
+  }
+
+  .box {
+    .title-projects {
+      font-size: 2rem;
+      color: black;
+      padding-top: 30px;
+    }
+
+    .content {
+      .columns {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+    }
   }
 }

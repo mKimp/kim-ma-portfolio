@@ -7,12 +7,11 @@
 
   .column {
     margin: 10px;
-    padding: 0;
+    padding: 30px;
 
     .box {
       height: 450px;
       width: 450px;
-      margin: 20px 0 10px 0;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       padding: 20px;
       border-radius: 12px;
@@ -60,4 +59,29 @@
       cursor: pointer;
     }
   }
+}
+
+@media screen and (max-width: 767px) {
+  .startup-grid .columns {
+    border-radius: 12px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .column {
+      margin: 10px;
+      padding: 30px;
+
+      .box {
+        width: unset;
+        height: fit-content;
+      }
+    }
+  }
+}
+
+section.section.projects.has-text-centered {
+  display: flex;
+  justify-content: center;
 }
